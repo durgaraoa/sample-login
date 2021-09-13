@@ -1,4 +1,3 @@
-import { domain, clientId, audience, apiUri } from '../../auth_config.json';
 
 export const environment = {
   production: true,
@@ -6,8 +5,5 @@ export const environment = {
     domain:"",
     clientId:""
     
-  },
-  httpInterceptor: {
-    allowedList: [`${apiUri}/*`],
-  },
+  }
 };
